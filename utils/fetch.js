@@ -7,7 +7,7 @@ const moment = require('moment');
 moment.locale('ru');
 
 const htmlUpdate = () => {
-  return request(settings.htmlUrl)
+  return request(settings.htmlUrl + '/publications')
     .then(result => {
       const $ = cheerio.load(result);
       const rawPosts = $('article[class="publications-category-item groupLeading"]');

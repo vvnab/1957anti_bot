@@ -37,7 +37,7 @@ const checkNewPosts = () => {
       const messages = _.map(posts, composeMessage);
       // сохраняем ...
       this.savePosts = _.sortBy(_.unionBy(newPosts, prevPosts, 'id'), 'id').reverse().slice(0, 50);
-      store.saveLastPosts(this.savePosts);
+      // store.saveLastPosts(this.savePosts);
       // постим
       return Promise.mapSeries(messages, i => bot.sendMessage(settings.chatId, i, {
         parse_mode: 'HTML'

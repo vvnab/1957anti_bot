@@ -1,8 +1,8 @@
 common:
-  htmlUrl: http://1957anti.ru/publications
+  htmlUrl: http://1957anti.ru
 develop:
   token: "685334324:AAHt11-YCvjJmDR4Ay1PMrQE9yQQD4DZ4Kg"
-  chatId: "@1957anti_dev"
+  chatId: "@anti1957_dev"
   # интервал проверки новых сообщений в секундах
   checkInterval: 60
 production:
