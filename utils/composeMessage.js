@@ -4,7 +4,7 @@ const _ = require('lodash');
 const composeMessage = post => {
   let message;
   post.title = _.escape(post.title);
-  message = `${post.author}\n${post.link}`;
+  message = `<b>${post.author}</b>\n${post.link}`;
   return message;
 }
 
