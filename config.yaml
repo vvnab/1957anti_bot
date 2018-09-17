@@ -7,6 +7,6 @@ develop:
   checkInterval: 60
 production:
   token: "685334324:AAHt11-YCvjJmDR4Ay1PMrQE9yQQD4DZ4Kg"
-  chatId: "@1957anti"
+  chatId: "@ru_1957anti"
   # интервал проверки новых сообщений в секундах
   checkInterval: 300
